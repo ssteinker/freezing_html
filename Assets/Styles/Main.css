@@ -1,0 +1,18 @@
+@import "../Components/bootstrap/css/bootstrap.min.css";
+@import "../Components/font-awesome/css/font-awesome.min.css";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600);
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+.extralight{font-weight:200;}
+.light{font-weight:300;}
+.regular{font-weight:400;}
+.bold{font-weight:600;}
+p{font-size:15px;line-height:18px;color:#616f7e;margin:0px 0;font-family:'Source Sans Pro',sans-serif;font-weight:400;font-style:normal;font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin:10px 0;}
+p.handwritten{font-size:45px;line-height:48px;color:#616f7e;margin:0px 0;font-family:'Source Sans Pro',sans-serif;font-weight:400;font-style:normal;font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin:40px 0;color:#292c37;font-family:'Nothing You Could Do',cursive;}
+h1{font-size:55px;line-height:58px;color:#616f7e;margin:0px 0;font-family:'Source Sans Pro',sans-serif;font-weight:400;font-style:normal;font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:200;color:#292c37;}
+h2{font-size:25px;line-height:28px;color:#616f7e;margin:0px 0;font-family:'Source Sans Pro',sans-serif;font-weight:400;font-style:normal;font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:300;margin-top:20px;}
+h3{font-size:20px;line-height:23px;color:#616f7e;margin:0px 0;font-family:'Source Sans Pro',sans-serif;font-weight:400;font-style:normal;font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+a{font-family:'Source Sans Pro',sans-serif;text-decoration:none;color:#292c37;-moz-transition-duration:1.5s;-webkit-transition-duration:1.5s;-o-transition-duration:1.5s;transition-duration:1.5s;}a:hover{color:#292c37;text-decoration:none;}
+button{border:1px solid #ffffff;background:transparent;float:right;padding:10px 20px;font-size:18px;line-height:21px;color:#616f7e;margin:0px 0;font-family:'Source Sans Pro',sans-serif;font-weight:400;font-style:normal;font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:300;color:#ffffff;margin-top:15px;-moz-transition-duration:0.5s;-webkit-transition-duration:0.5s;-o-transition-duration:0.5s;transition-duration:0.5s;}button:hover{background:#ffffff;color:#000000;}
+button:focus{outline:none;}
+body{background:#97bf0d;}
+@media (min-width:992px) and (max-width:1199px){}@media (min-width:768px) and (max-width:991px){}@media (max-width:767px){}

@@ -1,0 +1,130 @@
+/*
+	 	written by: Sven Steinker and Marc Neuhaus
+		Web: http://svensteinker.de , Mail: sven{at}svensteinker.de
+		Web: http://famelo.com , Mail: mneuhaus@famelo.com
+
+	take a look and learn, but never copy n paste!
+
+*/
+
+// mixins, functions, operations
+
+@white:			#ffffff;
+@black:			#000000;
+@svensteinker: 	#97bf0d;
+
+
+@grey: 			#616f7e;
+@lightgrey: 	#d4d5d7;
+@footer:  		#eeeeee;
+@body: 			#f6f6f6;
+@headerbg: 		rgba(255, 255, 255, 0.9);
+
+@clientblue:  	#292c37;
+@clientred:  	#b11623;
+@credrgba: 		rgba(177, 22, 35, 0.85);
+@modalgrey: 	rgba(246, 246, 246, 0.95);
+
+@inputgrey: 	#e8e8e8;
+
+
+.font (@fontsize:13px) {
+	font-size: @fontsize;
+	line-height: @fontsize + 3;
+	color:@grey;
+	margin: 0px 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.extralight {
+	font-weight: 200;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.regular {
+	font-weight: 400;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+p{
+	.font(15px);
+	margin: 10px 0;
+}
+
+p.handwritten{
+	.font(45px);
+	margin: 40px 0;
+	color:@clientblue;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+h1 {
+	.font(55px;);
+	.extralight;
+	color: @clientblue;
+}
+
+
+h2 {
+	.font(25px;);
+	.light;
+	margin-top: 20px;
+}
+
+h3 {
+	.font(20px;);
+}
+
+a {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	color:@clientblue;
+	.transition-duration(1.5s);
+	
+	&:hover {
+		color:@clientblue;
+		text-decoration: none;
+	}
+}
+
+button {
+	border: 1px solid @white; 
+	background: transparent;
+	float: right;
+	padding: 10px 20px;
+	.font (18px;);
+	.light;
+	color:@white;
+	margin-top: 15px;
+	.transition-duration(.5s);
+
+	&:hover {
+		background: @white;
+		color:@black;
+	}	
+
+	&:focus {
+		outline: none;
+	}
+}
+
+
+// Basics
+	body {
+		background: @svensteinker;
+	}
+
+
+
+
